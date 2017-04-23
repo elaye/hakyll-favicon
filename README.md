@@ -1,4 +1,4 @@
-# hakyll-favicon
+# hakyll-favicon [![Build Status](https://travis-ci.org/elaye/mushu.svg?branch=master)](https://travis-ci.org/elaye/hakyll-favicon)
 
 This library allows you to easily add favicons to your hakyll website.
 You provide one SVG image and the library will convert it to different resolutions and generate the corresponding html.
