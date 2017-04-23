@@ -1,7 +1,7 @@
 name:                hakyll-favicon
 version:             0.1.0
 -- synopsis:
--- description:
+description:         Generate favicons for Hakyll websites
 homepage:            https://github.com/elaye/hakyll-favicon#README.md
 license:             BSD3
 license-file:        LICENSE
