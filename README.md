@@ -61,7 +61,7 @@ Or you can start a local server to serve the generated page:
 The following favicons are generated:
 
 target       | format | sizes  | description
---------------------------------------------
+-------------|--------|--------|------------
 *            | .ico   | 32, 64 | basic favicon
 *            | .png   | 32     | basic favicon
 iOS          | .png   | 144    | third-generation iPad with high-resolution Retina display
