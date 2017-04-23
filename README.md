@@ -12,6 +12,9 @@ This library depends on `ImageMagick` to convert the images.
 First, add a `faviconsRules` that points to your main favicon in your `Site.hs` file like this:
 
 ```
+
+import Hakyll.Favicon
+
 main = hakyll $ do
   faviconsRules "images/favicon.svg" -- path to your favicon
   ...
