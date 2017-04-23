@@ -21,12 +21,20 @@ library
                      , filepath
   default-language:    Haskell2010
 
+executable example
+  hs-source-dirs:      example
+  main-is:             site.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , hakyll-favicon
+                     , hakyll
+  default-language:    Haskell2010
+
 test-suite hakyll-favicon-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
-                     , hakyll
                      , hakyll-favicon
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010

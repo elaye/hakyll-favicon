@@ -14,7 +14,7 @@ First, add a `faviconsRules` that points to your main favicon in your `Site.hs` 
 
 ```
 main = hakyll $ do
-  faviconsRules "images/favicon.svg" -- <- path to your favicon
+  faviconsRules "images/favicon.svg" -- path to your favicon
   ...
 ```
 
@@ -41,3 +41,18 @@ main = hakyll $ do
     ...
 ```
 
+The [example](example/) directory provides a minimal working example of this.
+
+# Example
+
+First, build the example:
+
+    stack build
+
+Then build the example page:
+
+    stack exec example build
+    
+Or you can start a local server to serve the generated page:
+
+    stack exec example watch
