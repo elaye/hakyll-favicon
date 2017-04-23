@@ -62,8 +62,8 @@ The following favicons are generated:
 
 target       | format | sizes  | description
 -------------|--------|--------|------------
-* | .ico | 32, 64 | basic favicon
-* | .png | 32 | basic favicon
+all | .ico | 32, 64 | basic favicon
+all | .png | 32 | basic favicon
 iOS | .png | 144 | third-generation iPad with high-resolution Retina display
 iOS | .png | 114 | iPhone with high-resolution Retina display
 iOS | .png | 72 | first- and second-generation iPad
