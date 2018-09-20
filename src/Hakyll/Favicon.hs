@@ -68,7 +68,6 @@ faviconName (Favicon (Basic size)) = "favicon" ++ show size ++ ".png"
 faviconPath :: Favicon -> FilePath
 faviconPath favicon@(Favicon (Ico _)) = faviconName favicon
 faviconPath favicon = "images" </> "favicons" </> faviconName favicon
-faviconPath favicon = "images" </> "favicons" </> faviconName favicon
 
 faviconsRules :: Pattern -> Rules ()
 faviconsRules ptn = match ptn $ mapM_ processFavicon favicons
